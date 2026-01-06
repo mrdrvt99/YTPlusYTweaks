@@ -44,9 +44,20 @@ If you plan on testing, adding other tweaks, making changes, or building very fr
     <li>Select "Build YTPlusYTweaks".</li>
     <li>Click "Run workflow".</li>
     <li>Select bundled tweaks.</li>
-    <li>Prepare a decrypted .ipa file, v20.10.4 or below for 'Fix Casting' to work <em>(we cannot provide this due to legal reasons)</em>, then upload it to a file provider (e.g., https://litterbox.catbox.moe, or Dropbox is recommended. If you use Dropbox, change the end of the URL from `dl=0` to `dl=1`). Paste the URL of the decrypted IPA file in the provided field.
-    <strong>NOTE:</strong> Make sure to provide a direct download link to the file, not a link to a webpage. Otherwise, the process will fail.</li>
-    <li>Click "Run workflow".</li>
+    <li>
+        Prepare & upload base .ipa<br>
+        
+- Prepare a decrypted .ipa file (version 20.10.4 or earlier for Fix Casting to work). <br>
+<em>We cannot provide this file due to legal reasons.</em><br>
+
+- Upload the decrypted IPA to a file hosting service (e.g., litterbox.catbox.moe or Dropbox).<br>
+<em>If you use Dropbox, change the end of the URL from <code>dl=0</code> to <code>dl=1</code>.</em><br>
+
+- Paste the direct download link to the decrypted IPA into the provided field.<br>
+<em><strong>NOTE:</strong> Make sure to provide a direct download link to the file, not a webpage. Otherwise, the process will fail.</em><br>
+    </li>
+        
+<li>Click "Run workflow".</li>
     <td><img src="Resources/scr15.jpg" alt="Screenshot 15" /></td>
     <li>Wait for the build to finish. You can download the YouTube Plus app from the releases section of your forked repo. (If you can't find the releases section, go to your forked repo and add /releases to the URL, i.e., github.com/user/YTPlusYTweaks/releases.)</li>
   </ol>
