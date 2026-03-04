@@ -58,7 +58,7 @@ IPAs Source:
 
 Optional Arguments:
     --deb                        Use pre-built .deb files from deb/ folder. Otherwise, build from source.
-    --sdk <version>              iOS SDK version: 16.5, 17.5, or 18.6 (default: 16.5)
+    --sdk <version>              iOS SDK version: 16.5, 17.5, or 18.6 (default: 18.6)
     --tweak-version <version>    Version of YTLite tweak (default: auto-detect latest)
     --display-name <name>        App display name (default: YouTube)
     --bundle-id <id>             Bundle ID (default: com.google.ios.youtube)
@@ -72,7 +72,7 @@ Tweak Integration Flags:
     --enable-yq                  YouQuality (default: true)
     --enable-ryd                 Return YouTube Dislikes (default: true)
     --enable-demc                DontEatMyContent (default: true)
-    --enable-ytabconfig          YTABConfig (default: true)
+    --enable-ytabconfig          YTABConfig (default: false)
     --enable-ytweaks             YTweaks (default: true)
     --enable-yougroupsettings    Settings (default: true)
     --enable-yticons             YTIcons (default: false)
@@ -94,7 +94,7 @@ Other Options:
 
 Examples:
     $0 --ipa https://example.com/youtube.ipa
-    $0 --ipa --sdk 17.5
+    $0 --ipa --sdk 18.6
     $0 --ipa --deb --disable-all
     $0 --ipa --disable-yticons --enable-ytweaks
 
