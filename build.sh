@@ -30,7 +30,7 @@ ROOT_DIR="$(pwd)"
 BUILD_DIR="$(pwd)/build"
 USE_PREBUILT_DEBS=false
 THEOS_COMMIT="67db2ab8d950910161730de77c322658ea3e6b44"
-SDK_VERSION="16.5"
+SDK_VERSION="18.6"
 APP_VERSION=""
 
 # Functions to print colored output
